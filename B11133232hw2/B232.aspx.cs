@@ -43,7 +43,7 @@ namespace B11133232hw2
             }
             total = p + m;
 
-            Label3.Text = class1 + "班 " + name + " 訂購的是：" + food;
+            Label3.Text = class1 +  name + " 訂購的是：" + food;
             Label3.ForeColor = System.Drawing.Color.Blue;
             Label4.Text = "金額：" + total.ToString();
             if(CheckBox1.Checked == true)
@@ -65,7 +65,6 @@ namespace B11133232hw2
             Label5.ForeColor = System.Drawing.Color.Blue;
 
         }
-
         protected void Button2_Click1(object sender, EventArgs e)
         {
             DropDownList1.SelectedIndex = 0;
@@ -88,7 +87,5 @@ namespace B11133232hw2
 
             CheckBox1.Checked = false;
         }
-
-
     }
 }
